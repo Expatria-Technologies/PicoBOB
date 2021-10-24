@@ -19,7 +19,7 @@ In addition, the board has a USB micro connector for the 5V that is required for
 
 ## PicoBOB Overview
 
-![Overview Image](/readme_images/Board_Overview.jpg)
+<img src="/readme_images/Board_Overview.jpg.jpg" width="100">
 
 Usage notes:
 
@@ -28,3 +28,4 @@ Communication with GRBLHAL on the PicoBOB is accomplished via the USB connection
 The Mach3 BOB shares the B axis direction signal with a stepper enable signal - only one can be used at a time.  On the PicoBOB, this is modified in GRBLHAL so that the B axis direction signal is shared with the coolant output signal.
 
 ![Board_Image](/readme_images/boardpics.png)
+<img src="/readme_images/boardpics.png" width="100">
