@@ -13,7 +13,6 @@ The PicoBOB closely tracks the features of the Mach3 BOB:
 4) 0-10V analog spindle speed control.
 5) 5 general purpose inputs
 6) One general purpose output.
-7) Sparkfun QWIIC differential I2C endpoint - extends the range of I2C and creates a robust data link for real-time jogging and 
 
 In addition, the board has a USB micro connector for the 5V that is required for the BOB.  There is also a push button to reset the Pi Pico without disconnecting power.
 
