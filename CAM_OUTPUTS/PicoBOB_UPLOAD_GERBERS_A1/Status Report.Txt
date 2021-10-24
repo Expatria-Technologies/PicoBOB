@@ -1,0 +1,10 @@
+Output: JLPCB BOM
+Type  : BOM
+From  : Variant [FULL_ASSEMBLY] of Project [PicoBOB.PrjPCB]
+   Generated File[PicoBOB_CAM_OUTPUT_A1.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 3:30:32 PM On 2021-10-23
