@@ -16,7 +16,7 @@ The PicoBOB closely tracks the features of the Mach3 BOB:
 
 In addition, the board has a USB micro connector for the 5V that is required for the BOB.  There is also a push button to reset the Pi Pico without disconnecting power.
 
-Gerber output files are in the CAM_OUTPUTS folder, along with BOM and Pick and Place files to facilitate easy ordering from JLCPCB.  Design is licensed under CERN-OHL-P V2.
+Gerber output files are in the CAM_OUTPUTS folder, along with BOM and Pick and Place files to facilitate easy ordering from JLCPCB.
 
 ## PicoBOB Overview
 
