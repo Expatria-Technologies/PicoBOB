@@ -29,3 +29,4 @@ Communication with GRBLHAL on the PicoBOB is accomplished via the USB connection
 The Mach3 BOB shares the B axis direction signal with a stepper enable signal - only one can be used at a time.  On the PicoBOB, this is modified in GRBLHAL default map file so that the B axis direction signal can be sued as the coolant output signal.  All of this is configurable by re-building the GRBLHAL firwmare.
 
 <img src="/readme_images/boardpics.png" width="500">
+Above shows the PicoBOB with a Pi Pico installed and connected to the Mach3/LinuxCNC parallel BOB.
