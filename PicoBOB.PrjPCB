@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=Project Outputs for PicoBOB
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -202,20 +202,20 @@ Path=..\libraries\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=VarRevNo
-Value=A1
-
-[Parameter2]
-Name=Title
+Name=PCBPARTNO
 Value=PicoBOB
 
-[Parameter3]
+[Parameter2]
 Name=PCBREVNO
 Value=A1
 
-[Parameter4]
-Name=PCBPARTNO
+[Parameter3]
+Name=Title
 Value=PicoBOB
+
+[Parameter4]
+Name=VarRevNo
+Value=A1
 
 [Configuration1]
 Name=Default Configuration
@@ -384,7 +384,7 @@ TerminationPrefC7=0
 TerminationVCC7=5
 
 [Generic_EDE]
-OutputDir=Project Outputs for PicoBOB
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
