@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=PicoBOB_GRBLHAL.OutJob
 Description=
-TargetOutputMedium=UPLOAD_GERBERS
+TargetOutputMedium=Schematic and 3D Prints
 VariantName=FULL_ASSEMBLY
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=NPI64BC3F (HP LaserJet M1536dnf MFP)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -46,7 +46,7 @@ OutputName1=Debug Schematic Prints
 OutputCategory1=Documentation
 OutputDocumentPath1=[Project Physical Documents]
 OutputVariantName1=Debug
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
@@ -62,7 +62,7 @@ OutputName2=Generates pick and place files
 OutputCategory2=Assembly
 OutputDocumentPath2=
 OutputVariantName2=Production
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=3
@@ -77,7 +77,7 @@ OutputName3=Gerber Files
 OutputCategory3=Fabrication
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=1
@@ -92,7 +92,7 @@ OutputName4=NC Drill Files
 OutputCategory4=Fabrication
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=2
@@ -225,7 +225,7 @@ OutputName9=JLPCB BOM
 OutputCategory9=Report
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=4
@@ -280,7 +280,7 @@ Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39370079|ViewY=39370079|LookAtX=31685040|LookAtY=31985040|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=9.22019993914668E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=C:\Repo\grblhal_2000_t4.1_breakout\Layout\PrintNC_GRBLHAL_Breakout.pcbdoc
 
 [PublishSettings]
-OutputFilePath2=D:\Bluebell\cmt-bluebell\Circuit Design\bluebell-RevB\Project Outputs for bluebell-Pod-RevB\bluebell-Pod-RevB_Schematic_B6_VariantName.PDF
+OutputFilePath2=C:\Repo\PicoBOB\Project Outputs for PicoBOB\Schematic and 3D Prints\PicoBOB_Schematic_A1_VariantName.PDF
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for PicoBOB
 OutputPathMedia2=[Media Name]
@@ -288,7 +288,7 @@ OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=bluebell-RevB.PDF
+OutputFileName2=PicoBOB_GRBLHAL.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2==ProjectName+_Schematic+_+VarRevNo+_+VariantName
@@ -335,7 +335,7 @@ OutputFileNameSpecial4=
 OpenOutput4=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\Bluebell\cmt-bluebell\Circuit Design\bluebell-RevB\Project Outputs for bluebell-Pod-RevB\bluebell-Pod-RevB_Schematic_B6_VariantName.PDF
+RelativeOutputPath2=C:\Repo\PicoBOB\Project Outputs for PicoBOB\Schematic and 3D Prints\PicoBOB_Schematic_A1_VariantName.PDF
 OpenOutputs2=1
 RelativeOutputPath3=C:\Repo\PicoBOB\Project Outputs for PicoBOB\PicoBOB_UPLOAD_GERBERS_A1\
 OpenOutputs3=0
