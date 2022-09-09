@@ -1,4 +1,5 @@
-Record=TopLevelDocument|FileName=RasBOB_board.SchDoc|SheetNumber=3
+Record=TopLevelDocument|FileName=Title Sheet.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Title Sheet.SchDoc|Designator=PicoBOB_PCBA|SchDesignator=PicoBOB_PCBA|FileName=RasBOB_board.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=RasBOB_board.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=RasBOB_board.SchDoc|Designator=Ad|SchDesignator=Ad|FileName=5V_Output_shift.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=5V_Output_shift.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=RasBOB_board.SchDoc|Designator=As|SchDesignator=As|FileName=5V_Output_shift.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=5V_Output_shift.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=RasBOB_board.SchDoc|Designator=Bd|SchDesignator=Bd|FileName=5V_Output_shift.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=5V_Output_shift.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
@@ -12,5 +13,3 @@ Record=SheetSymbol|SourceDocument=RasBOB_board.SchDoc|Designator=Yd|SchDesignato
 Record=SheetSymbol|SourceDocument=RasBOB_board.SchDoc|Designator=Ys|SchDesignator=Ys|FileName=5V_Output_shift.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=5V_Output_shift.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=RasBOB_board.SchDoc|Designator=Zd|SchDesignator=Zd|FileName=5V_Output_shift.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=5V_Output_shift.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=RasBOB_board.SchDoc|Designator=Zs|SchDesignator=Zs|FileName=5V_Output_shift.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=5V_Output_shift.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=RasBOB_board.SchDoc|FileName=Change Log.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=RasBOB_board.SchDoc|FileName=Title Sheet.SchDoc|SheetNumber=1

@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=FULL_PLACE
 
 [Preferences]
 PrefsVaultGUID=
@@ -199,7 +200,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=VUFMGTSV
 
 [Document10]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Zener.SchLib
@@ -216,7 +217,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=FGGVQLSB
 
 [Document11]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Transistor_PNP.SchLib
@@ -233,7 +234,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WRTBQHMJ
 
 [Document12]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Transistor_NPN.SchLib
@@ -250,7 +251,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SNXALUAE
 
 [Document13]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\RES.SchLib
@@ -267,7 +268,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HLBESONQ
 
 [Document14]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\MOS.SchLib
@@ -284,7 +285,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RNJWUMFL
 
 [Document15]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Miscellaneous Devices LC.PcbLib
@@ -318,7 +319,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JSSXFVPY
 
 [Document17]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\LED.SchLib
@@ -335,7 +336,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SQBERQTN
 
 [Document18]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\LDO.SchLib
@@ -352,7 +353,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=CCDDGAMC
 
 [Document19]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\IUD.SchLib
@@ -369,7 +370,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=VMPXMJDM
 
 [Document20]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\IC_temp.SchLib
@@ -386,7 +387,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=GQNPVBEG
 
 [Document21]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\IC.SchLib
@@ -403,7 +404,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=VITYGUXC
 
 [Document22]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\FBEAD.SchLib
@@ -420,7 +421,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=GBUUCOMP
 
 [Document23]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Diode.SchLib
@@ -437,7 +438,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JHFWXUNK
 
 [Document24]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\CrystalOscillator.SchLib
@@ -454,7 +455,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=FITEGSRK
 
 [Document25]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Cap.SchLib
@@ -471,7 +472,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=VTPOGMYO
 
 [ProjectVariant1]
 UniqueID=2FD7A5CA-1890-45CB-96AB-94166B7423FD
@@ -533,20 +534,20 @@ Path=..\libraries\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=VarRevNo
-Value=B1
-
-[Parameter2]
-Name=Title
+Name=PCBPARTNO
 Value=PicoBOB
 
-[Parameter3]
+[Parameter2]
 Name=PCBREVNO
 Value=B1
 
-[Parameter4]
-Name=PCBPARTNO
+[Parameter3]
+Name=Title
 Value=PicoBOB
+
+[Parameter4]
+Name=VarRevNo
+Value=B1
 
 [Configuration1]
 Name=Default Configuration

@@ -1,0 +1,103 @@
+Altium Designer Pick and Place Locations
+C:\Repo\PicoBOB\Project Outputs for PicoBOB\PicoBOB_UPLOAD_GERBERS_B1\Pick Place\PicoBOB_CAM_OUTPUT_B1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       04-08-22
+Time:       22:33
+Revision:   d7b46e3226fb4741842741c832d1c6a83a647035
+Variant:    No variations
+Units used: mil
+
+Designator Comment         Layer    Footprint          Center-X(mil) Center-Y(mil) Rotation Description                                                                                        
+R10        "5.1KO ±1%"     TopLayer 0402_R             880.905       211.614       90       "Chip resistor"                                                                                    
+D1         "0603 Green"    TopLayer 0603_LED_S1        880.905       88.583        270      LED                                                                                                
+C18        22uF            TopLayer 0805_C             137.795       354.331       270      "Chip capacitors"                                                                                  
+Y1         YSX321SL        TopLayer YSX321SL           383.858       1003.016      180      "Crystal or Oscillator"                                                                            
+VR1        XC6206P332MR    TopLayer SOT-23-3L          73.819        167.323       270      "200mA 680mV@(100mA) Fixed 3.3V~3.3V Positive 1 6V SOT-23-3L Linear Voltage Regulators (LDO) ROHS" 
+U1         RP2040          TopLayer RP2040             332.677       701.280       180      "RP2040 First MCU from RPI"                                                                        
+BOOT       SKRTLAE010      TopLayer ALPS-SKRTLAE010_V  78.740        1776.575      270      "Side Push Type, 250 V, -40 to 90 degC, 3-Pin SMD, RoHS, Tape and Reel"                            
+R8         "470O ±1%"      TopLayer 0402_R             275.591       984.252       270      "Chip resistor"                                                                                    
+R6         "5.1KO ±1%"     TopLayer 0402_R             807.087       231.299       90       "Chip resistor"                                                                                    
+R5         "5.1KO ±1%"     TopLayer 0402_R             807.087       152.559       270      "Chip resistor"                                                                                    
+R4         "22O ±1%"       TopLayer 0402_R             270.669       378.937       90       "Chip resistor"                                                                                    
+R3         "22O ±1%"       TopLayer 0402_R             319.882       378.937       90       "Chip resistor"                                                                                    
+R2         "1KO ±1%"       TopLayer 0402_R             807.087       408.464       270      "Chip resistor"                                                                                    
+R1         DNP             TopLayer 0402               807.087       314.961       270      "Resistor, ±5%, 0.05W"                                                                             
+P1         62201021121     TopLayer 62201021121        84.055        1299.213      270      "THT Vertical Pin Header WR-PHD, Pitch 1.27 mm, Dual Row, 10 pins"                                 
+L1         W25Q128JVSIQ_TR TopLayer SOIC127P780X195-8N 664.370       196.850       270      Inductor                                                                                           
+J2         TYPE-C-31-M-12  TopLayer HRO_TYPE-C-31-M-12 339.567       169.193       0        "USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"                                                   
+C17        100nF           TopLayer 0402_C             78.740        664.370       0        "Chip capacitors"                                                                                  
+C16        100nF           TopLayer 0402_C             418.307       378.937       90       "Chip capacitors"                                                                                  
+C15        100nF           TopLayer 0402_C             625.000       659.449       180      "Chip capacitors"                                                                                  
+C14        100nF           TopLayer 0402_C             78.740        752.953       0        "Chip capacitors"                                                                                  
+C13        100nF           TopLayer 0402_C             78.740        610.236       0        "Chip capacitors"                                                                                  
+C12        100nF           TopLayer 0402_C             76.772        561.024       0        "Chip capacitors"                                                                                  
+C11        100nF           TopLayer 0402_C             369.094       378.937       90       "Chip capacitors"                                                                                  
+C10        1.0uF           TopLayer 0402_C             625.000       497.047       180      "Chip capacitor"                                                                                   
+C9         1.0uF           TopLayer 0402_C             221.457       378.937       90       "Chip capacitor"                                                                                   
+C8         100nF           TopLayer 0402_C             177.165       984.252       270      "Chip capacitors"                                                                                  
+C7         100nF           TopLayer 0402_C             467.519       378.937       90       "Chip capacitors"                                                                                  
+C6         20pF            TopLayer 0402_C             275.590       1067.914      90       "Chip capacitors"                                                                                  
+C5         20pF            TopLayer 0402_C             492.126       984.252       270      "Chip capacitors"                                                                                  
+C4         22uF            TopLayer 0805_C             93.504        482.284       0        "Chip capacitors"                                                                                  
+C3         22uF            TopLayer 0805_C             49.213        354.331       270      "Chip capacitors"                                                                                  
+C2         4.7uF           TopLayer 0402_C             226.378       984.252       270      "Chip capacitor"                                                                                   
+C1         100nF           TopLayer 0402_C             807.087       73.819        270      "Chip capacitors"                                                                                  
+RUN        SKRTLAE010      TopLayer ALPS-SKRTLAE010_V  77.756        1549.213      270      "Side Push Type, 250 V, -40 to 90 degC, 3-Pin SMD, RoHS, Tape and Reel"                            
+U18        74HC14D         TopLayer SOIC-14_150mil     669.291       861.221       90       74??????                                                                                           
+R83_Zs     "2.2KO ±1%"     TopLayer 0402_R             766.669       1668.307      0        "Chip resistor"                                                                                    
+R83_Zd     "2.2KO ±1%"     TopLayer 0402_R             520.606       1663.386      0        "Chip resistor"                                                                                    
+R83_Ys     "2.2KO ±1%"     TopLayer 0402_R             765.748       1850.394      0        "Chip resistor"                                                                                    
+R83_Yd     "2.2KO ±1%"     TopLayer 0402_R             520.606       1845.473      0        "Chip resistor"                                                                                    
+R83_Xs     "2.2KO ±1%"     TopLayer 0402_R             270.669       1481.299      0        "Chip resistor"                                                                                    
+R83_Xd     "2.2KO ±1%"     TopLayer 0402_R             269.622       1297.244      0        "Chip resistor"                                                                                    
+R83_PWM    "2.2KO ±1%"     TopLayer 0402_R             270.669       1663.386      0        "Chip resistor"                                                                                    
+R83_EN     "2.2KO ±1%"     TopLayer 0402_R             270.669       1845.473      0        "Chip resistor"                                                                                    
+R83_Bs     "2.2KO ±1%"     TopLayer 0402_R             766.669       1486.221      0        "Chip resistor"                                                                                    
+R83_Bd     "2.2KO ±1%"     TopLayer 0402_R             520.606       1481.300      0        "Chip resistor"                                                                                    
+R83_As     "2.2KO ±1%"     TopLayer 0402_R             520.606       1299.213      0        "Chip resistor"                                                                                    
+R83_Ad     "2.2KO ±1%"     TopLayer 0402_R             766.669       1304.134      0        "Chip resistor"                                                                                    
+R76        "510O ±1%"      TopLayer 0402_R             738.189       1084.646      270      "Chip resistor"                                                                                    
+R75        "100KO ±1%"     TopLayer 0402_R             787.402       1084.646      90       "Chip resistor"                                                                                    
+R74        "510O ±1%"      TopLayer 0402_R             858.267       964.567       180      "Chip resistor"                                                                                    
+R73        "100KO ±1%"     TopLayer 0402_R             858.268       915.355       0        "Chip resistor"                                                                                    
+R70        "510O ±1%"      TopLayer 0402_R             858.267       816.929       180      "Chip resistor"                                                                                    
+R69        "100KO ±1%"     TopLayer 0402_R             858.268       866.142       0        "Chip resistor"                                                                                    
+R66        "510O ±1%"      TopLayer 0402_R             858.268       718.504       180      "Chip resistor"                                                                                    
+R65        "100KO ±1%"     TopLayer 0402_R             858.267       669.291       180      "Chip resistor"                                                                                    
+R56_Zs     "510O ±1%"      TopLayer 0402_R             850.330       1668.307      180      "Chip resistor"                                                                                    
+R56_Zd     "510O ±1%"      TopLayer 0402_R             604.267       1663.386      180      "Chip resistor"                                                                                    
+R56_Ys     "510O ±1%"      TopLayer 0402_R             849.409       1850.394      180      "Chip resistor"                                                                                    
+R56_Yd     "510O ±1%"      TopLayer 0402_R             604.267       1845.473      180      "Chip resistor"                                                                                    
+R56_Xs     "510O ±1%"      TopLayer 0402_R             354.330       1481.299      180      "Chip resistor"                                                                                    
+R56_Xd     "510O ±1%"      TopLayer 0402_R             353.283       1297.244      180      "Chip resistor"                                                                                    
+R56_PWM    "510O ±1%"      TopLayer 0402_R             354.331       1663.386      180      "Chip resistor"                                                                                    
+R56_EN     "510O ±1%"      TopLayer 0402_R             354.331       1845.472      180      "Chip resistor"                                                                                    
+R56_Bs     "510O ±1%"      TopLayer 0402_R             850.330       1486.220      180      "Chip resistor"                                                                                    
+R56_Bd     "510O ±1%"      TopLayer 0402_R             604.267       1481.299      180      "Chip resistor"                                                                                    
+R56_As     "510O ±1%"      TopLayer 0402_R             604.267       1299.213      180      "Chip resistor"                                                                                    
+R56_Ad     "510O ±1%"      TopLayer 0402_R             850.330       1304.134      180      "Chip resistor"                                                                                    
+R9         "510O ±1%"      TopLayer 0402_R             590.551       1084.646      270      "Chip resistor"                                                                                    
+R7         "100KO ±1%"     TopLayer 0402_R             541.339       1084.646      90       "Chip resistor"                                                                                    
+Q13_Zs     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   802.165       1574.803      180      ???                                                                                                
+Q13_Zd     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   556.102       1569.882      180      ???                                                                                                
+Q13_Ys     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   801.244       1756.890      180      ???                                                                                                
+Q13_Yd     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   556.102       1751.969      180      ???                                                                                                
+Q13_Xs     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   306.165       1387.795      180      ???                                                                                                
+Q13_Xd     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   305.118       1203.740      180      ???                                                                                                
+Q13_PWM    "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   306.166       1569.882      180      ???                                                                                                
+Q13_EN     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   306.166       1751.968      180      ???                                                                                                
+Q13_Bs     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   802.165       1392.717      180      ???                                                                                                
+Q13_Bd     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   556.102       1387.795      180      ???                                                                                                
+Q13_As     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   556.102       1205.709      180      ???                                                                                                
+Q13_Ad     "MMBT5551  G1"  TopLayer SOT-23(SOT-23-3)   802.165       1210.630      180      ???                                                                                                
+J9         473460001       TopLayer FP-473460001-MFG   236.220       2013.583      180      "CONN RCPT USB2.0 MICRO B SMD R/A"                                                                 
+J1         D-DMR025PF-D002 TopLayer 618025231121       1061.220      1075.787      90       "Through Hole,P=2.77mm D-Sub Connectors ROHS"                                                      
+C53        10nF            TopLayer 0402_C             688.976       1084.646      270      "Chip capacitors"                                                                                  
+C51        10nF            TopLayer 0402_C             858.267       1013.780      180      "Chip capacitors"                                                                                  
+C50        10nF            TopLayer 0402_C             858.267       767.717       180      "Chip capacitors"                                                                                  
+C49        10nF            TopLayer 0402_C             858.267       620.079       0        "Chip capacitors"                                                                                  
+C48        1.0uF           TopLayer 0402_C             625.000       605.315       0        "Chip capacitor"                                                                                   
+C20        10nF            TopLayer 0402_C             639.764       1084.646      270      "Chip capacitors"                                                                                  
