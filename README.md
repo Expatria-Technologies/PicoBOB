@@ -26,7 +26,7 @@ Gerber output files are in the CAM_OUTPUTS folder, along with BOM and Pick and P
 
 Usage notes:
 
-Communication with GRBLHAL on the PicoBOB is accomplished via the USB connection on the Pi Pico (not connected in above images).  The short USB cable shown above is to provide the required 5V for the BOB.  In addition, the BOB requires an external 12-24V supply.
+Communication with GRBLHAL on the PicoBOB is accomplished via the USBC connection on the PicoBOB (not connected in above images).  A short USB cable is used to provide the required 5V for the BOB.  In addition, the BOB requires an external 12-24V supply.
 
 The Mach3 BOB shares the B axis direction signal with a spindle relay enable signal - only one can be used at a time.  Also on the PicoBOB, the stepper enable signal is modified in the GRBLHAL default map file so that it is used as the coolant output signal.  All of this is configurable by re-building the GRBLHAL firwmare.
 
