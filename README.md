@@ -4,6 +4,8 @@
 
 Expatria Technologies PicoBOB GRBLHAL module
 
+<img src="/readme_images/Pico_Boardpng.png" width="300">
+
 The PicoBOB allows you to use the high performance GRBLHAL motion control system with a traditional Mach3/LinuxCNC parallel-port breakout board.  It is intended to be simple and low cost.  It uses a Raspberry Pi Pico RP2040 MCU module and the widely available 5 axis Mach3 breakout board.  The PicoBOB can be easily sourced from JLCPCB.  The complete BOM and fabrications files are in the CAM_OUTPUTS folder for upload.  The design is free to use by all parties, including commercial parties, under the CERN-OHL-S V2 license.  It is our hope that the community finds the design useful and that it may be carried forward to help advance the PrintNC and broader CNC hobby community.
 
 The PicoBOB closely tracks the features of the Mach3 BOB:
