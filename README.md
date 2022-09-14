@@ -22,12 +22,12 @@ The PicoBOB closely tracks the features of the Mach3 BOB:
 5) 5 general purpose inputs
 6) One general purpose output.
 
-The default GRBLHAL builds for the PicoBOB include the following features:
+The default GRBLHAL builds for the PicoBOB include the following features that are implemented in the RP2040 port of GRBLHAL:
 
-a) Backlash Compensation
-b) Stress-free Autosquaring for the ganged axis
-c) Ganged axis offsets to correct for offset homing switches
-d) Step rates tested up to 180 KHz on 5 simultaneous axes.
+1) Backlash Compensation.
+2) Stress-free Autosquaring for the ganged axis
+3) Ganged axis offsets to correct for offset homing switches
+4) Step rates tested up to 180 KHz on 5 simultaneous axes.
 
 In addition, the board has a USB micro connector for the 5V that is required for the BOB.  There is also a push button to reset the Pi Pico without disconnecting power.
 
