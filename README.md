@@ -22,6 +22,13 @@ The PicoBOB closely tracks the features of the Mach3 BOB:
 5) 5 general purpose inputs
 6) One general purpose output.
 
+The default GRBLHAL builds for the PicoBOB include the following features:
+
+a) Backlash Compensation
+b) Stress-free Autosquaring for the ganged axis
+c) Ganged axis offsets to correct for offset homing switches
+d) Step rates tested up to 180 KHz on 5 simultaneous axes.
+
 In addition, the board has a USB micro connector for the 5V that is required for the BOB.  There is also a push button to reset the Pi Pico without disconnecting power.
 
 Gerber output files are in the CAM_OUTPUTS folder, along with BOM and Pick and Place files to facilitate easy ordering from JLCPCB.  Now available as a chip-down design in revision B1.  Older A1 revision for Pi Pico module is still hosted in case you want to do the final soldering by hand.  The two designs are functionally identical.
