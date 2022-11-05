@@ -12,7 +12,7 @@ https://expatria.myshopify.com/products/picobob
 
 Please consider buying a board to support our open-source designs. 
 
-The PicoBOB allows you to use the high performance GRBLHAL motion control system with a traditional Mach3/LinuxCNC parallel-port breakout board.  It is intended to be simple and low cost.  It uses a Raspberry Pi Pico RP2040 MCU module and the widely available 5 axis Mach3 breakout board.  The PicoBOB can be easily sourced from JLCPCB.  The complete BOM and fabrications files are in the CAM_OUTPUTS folder for upload.  The design is free to use by all parties, including commercial parties, under the CERN-OHL-S V2 license.  It is our hope that the community finds the design useful and that it may be carried forward to help advance the PrintNC and broader CNC hobby community.
+The PicoBOB allows you to use the high performance GRBLHAL motion control system with a traditional Mach3/LinuxCNC parallel-port breakout board.  It is intended to be simple and low cost.  It uses a Raspberry Pi RP2040 MCU and the widely available 5 axis Mach3 breakout board.  The PicoBOB can be easily sourced from JLCPCB.  The complete BOM and fabrications files are in the CAM_OUTPUTS folder for upload.  The design is free to use by all parties, including commercial parties, under the CERN-OHL-S V2 license.  It is our hope that the community finds the design useful and that it may be carried forward to help advance the PrintNC and broader CNC hobby community.
 
 The PicoBOB closely tracks the features of the Mach3 BOB:
 
@@ -21,6 +21,13 @@ The PicoBOB closely tracks the features of the Mach3 BOB:
 4) 0-10V analog spindle speed control.
 5) 5 general purpose inputs
 6) One general purpose output.
+
+The default GRBLHAL builds for the PicoBOB include the following features that are implemented in the RP2040 port of GRBLHAL:
+
+1) Backlash Compensation.
+2) Stress-free Autosquaring for the ganged axis
+3) Ganged axis offsets to correct for offset homing switches
+4) Step rates tested up to 180 KHz on 5 simultaneous axes.
 
 In addition, the board has a USB micro connector for the 5V that is required for the BOB.  There is also a push button to reset the Pi Pico without disconnecting power.
 
