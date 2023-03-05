@@ -49,8 +49,8 @@ Above shows the PicoBOB A1 with a Pi Pico installed and connected to the Mach3/L
 ## Gecko Drive G540 support Overview
 By using a common "mini gender changer" the PicoBOB can be adapted for use with a G540 4-AXIS Digital Step Drive.
 
-<img src="/readme_images/Gecko_Adapter.png" width="500">
-<img src="/readme_imagesIMG_20230304_1730163.jpg" width="500">
+<img src="/readme_images/Gecko_Adapter.png" width="300">
+<img src="/readme_images/IMG_20230304_1730163.jpg" width="500">
 
 The updated GRBLHAL map file has the following pinout:
 
