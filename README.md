@@ -45,3 +45,33 @@ The Mach3 BOB shares the B axis direction signal with a spindle relay enable sig
 
 <img src="/readme_images/boardpics.png" width="500">
 Above shows the PicoBOB A1 with a Pi Pico installed and connected to the Mach3/LinuxCNC parallel BOB.
+
+## Gecko Drive G540 support Overview
+By using a common "mini gender changer" the PicoBOB can be adapted for use with a G540 4-AXIS Digital Step Drive.
+
+<img src="/readme_images/Gecko_Adapter.png" width="500">
+<img src="/readme_imagesIMG_20230304_1730163.jpg" width="500">
+
+The updated GRBLHAL map file has the following pinout:
+
+| DB25 Pin | G540 Function   | GRBLHAL Function | RP2040 GPIO |
+|----------|-----------------|------------------|-------------|
+| Pin 1    | OUTPUT 2        | SPINDLE ENABLE   | GPIO14      |
+| Pin 2    | X STEP          | X STEP           | GPIO17      |
+| Pin 3    | X DIR           | X DIR            | GPIO9       |
+| Pin 4    | Y SETP          | Y SETP           | GPIO18      |
+| Pin 5    | Y DIR           | Y DIR            | GPIO10      |
+| Pin 6    | Z STEP          | Z STEP           | GPIO19      |
+| Pin 7    | Z DIR           | Z DIR            | GPIO11      |
+| Pin 8    | A STEP          | A/M3 STEP        | GPIO20      |
+| Pin 9    | A DIR           | A/M3 DIR         | GPIO12      |
+| Pin 10   | INPUT 1         | LIMIT XYZ        | GPIO3       |
+| Pin 11   | INPUT 2         | PROBE            | GPIO4       |
+| Pin 12   | INPUT 3         | LIMIT A/M3       | GPIO2       |
+| Pin 13   | INPUT 4         | HOLD             | GPIO1       |
+| Pin 14   | VFD PWM         | SPINDLE PWM      | GPIO16      |
+| Pin 15   | FAULT (INPUT 5) | HALT             | GPIO5       |
+| Pin 16   | CHARGE PUMP     | N/A              | GPIO21      |
+| Pin 17   | OUTPUT 1        | COOLANT          | GPIO13      |
+| Pin 18-25| GND             |                  |             |
+
