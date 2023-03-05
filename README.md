@@ -4,7 +4,7 @@
 
 Expatria Technologies PicoBOB GRBLHAL module
 
-<img src="/readme_images/Pico_Boardpng.png" width="300">
+<img src="/readme_images/Pico_Boardpng.png" width="600">
 
 Currently available in our online store:
 
