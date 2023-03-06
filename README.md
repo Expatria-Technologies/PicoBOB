@@ -46,6 +46,10 @@ The Mach3 BOB shares the B axis direction signal with a spindle relay enable sig
 <img src="/readme_images/boardpics.png" width="500">
 Above shows the PicoBOB A1 with a Pi Pico installed and connected to the Mach3/LinuxCNC parallel BOB.
 
+To build mainline GRBLHAL firmware, PicoBOB is fully supported by the Web Builder from TerjeIO
+
+http://svn.io-engineering.com:8080/?driver=RP2040&board=PicoBOB
+
 ## Gecko Drive G540 support Overview
 By using a common "mini gender changer" the PicoBOB can be adapted for use with a G540 4-AXIS Digital Step Drive.
 
@@ -75,3 +79,6 @@ The updated GRBLHAL map file has the following pinout:
 | Pin 17   | OUTPUT 1        | COOLANT          | GPIO13      |
 | Pin 18-25| GND             |                  |             |
 
+For custom builds using the above pinout, you can use this variant from the Web Builder:
+
+http://svn.io-engineering.com:8080/?driver=RP2040&board=PicoBOB_G540
