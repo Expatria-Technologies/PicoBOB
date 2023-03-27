@@ -1,5 +1,13 @@
 # Prebuilt PicoBOB Firmwares
 
+Suggestion is to use the aweseom web builder from IO Engineering.
+
+Breakout Board pin mapping:
+http://svn.io-engineering.com:8080/?driver=RP2040&board=PicoBOB
+
+Gecko G540 pin mapping:
+http://svn.io-engineering.com:8080/?driver=RP2040&board=PicoBOB_G540
+
 Some firmwares are here to help get things up and running.
 
 grblHAL_PicoBOB_3Axis_xxxx.uf2 is for a basic 3 axis machine.
