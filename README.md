@@ -4,7 +4,7 @@
 
 Expatria Technologies PicoBOB GRBLHAL module
 
-<img src="/readme_images/Pico_Boardpng.png" width="300">
+<img src="/readme_images/Pico_Boardpng.png" width="600">
 
 Currently available in our online store:
 
@@ -12,7 +12,7 @@ https://expatria.myshopify.com/products/picobob
 
 Please consider buying a board to support our open-source designs. 
 
-The PicoBOB allows you to use the high performance GRBLHAL motion control system with a traditional Mach3/LinuxCNC parallel-port breakout board.  It is intended to be simple and low cost.  It uses a Raspberry Pi RP2040 MCU and the widely available 5 axis Mach3 breakout board.  The PicoBOB can be easily sourced from JLCPCB.  The complete BOM and fabrications files are in the CAM_OUTPUTS folder for upload.  The design is free to use by all parties, including commercial parties, under the CERN-OHL-S V2 license.  It is our hope that the community finds the design useful and that it may be carried forward to help advance the PrintNC and broader CNC hobby community.
+The PicoBOB allows you to use the high performance GRBLHAL motion control system with a traditional Mach3/LinuxCNC parallel-port breakout board.  It is intended to be simple and low cost.  It uses a Raspberry Pi RP2040 MCU and the widely available 5 axis Mach3 breakout board.  It can also be used with the Gecko G540.  The PicoBOB can be easily sourced from JLCPCB.  The complete BOM and fabrications files are in the CAM_OUTPUTS folder for upload.  The design is free to use by all parties, including commercial parties, under the CERN-OHL-S V2 license.  It is our hope that the community finds the design useful and that it may be carried forward to help advance the PrintNC and broader CNC hobby community.
 
 The PicoBOB closely tracks the features of the Mach3 BOB:
 
@@ -46,11 +46,15 @@ The Mach3 BOB shares the B axis direction signal with a spindle relay enable sig
 <img src="/readme_images/boardpics.png" width="500">
 Above shows the PicoBOB A1 with a Pi Pico installed and connected to the Mach3/LinuxCNC parallel BOB.
 
+To build mainline GRBLHAL firmware, PicoBOB is fully supported by the Web Builder from TerjeIO
+
+http://svn.io-engineering.com:8080/?driver=RP2040&board=PicoBOB
+
 ## Gecko Drive G540 support Overview
 By using a common "mini gender changer" the PicoBOB can be adapted for use with a G540 4-AXIS Digital Step Drive.
 
-<img src="/readme_images/Gecko_Adapter.png" width="500">
-<img src="/readme_imagesIMG_20230304_1730163.jpg" width="500">
+<img src="/readme_images/Gecko_Adapter.png" width="300">
+<img src="/readme_images/IMG_20230304_1730163.jpg" width="500">
 
 The updated GRBLHAL map file has the following pinout:
 
@@ -75,3 +79,6 @@ The updated GRBLHAL map file has the following pinout:
 | Pin 17   | OUTPUT 1        | COOLANT          | GPIO13      |
 | Pin 18-25| GND             |                  |             |
 
+For custom builds using the above pinout, you can use this variant from the Web Builder:
+
+http://svn.io-engineering.com:8080/?driver=RP2040&board=PicoBOB_G540
