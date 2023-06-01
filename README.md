@@ -47,7 +47,8 @@ The Mach3 BOB shares the B axis direction signal with a spindle relay enable sig
 Above shows the PicoBOB A1 with a Pi Pico installed and connected to the Mach3/LinuxCNC parallel BOB.
 
 <img src="/readme_images/B1boardpic.png" width="500">
-Above shows the PicoBOB B1 connected to the Mach3/LinuxCNC parallel BOB
+Above shows the PicoBOB B1 connected to the Mach3/LinuxCNC parallel BOB.
+
 
 To build mainline GRBLHAL firmware, PicoBOB is fully supported by the Web Builder from TerjeIO
 
