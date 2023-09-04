@@ -54,6 +54,10 @@ Above shows the PicoBOB A1 with a Pi Pico installed and connected to the Mach3/L
 Above shows the PicoBOB B1 connected to the Mach3/LinuxCNC parallel BOB.
 
 
+YGANG pinout is as below:
+
+<img src="/readme_images/BOB_PINOUT_YGANG.png" width="500">
+
 To build mainline GRBLHAL firmware, PicoBOB is fully supported by the Web Builder from TerjeIO
 
 http://svn.io-engineering.com:8080/?driver=RP2040&board=PicoBOB
