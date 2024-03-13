@@ -94,3 +94,7 @@ The updated GRBLHAL map file has the following pinout:
 For custom builds using the above pinout, you can use this variant from the Web Builder:
 
 http://svn.io-engineering.com:8080/?driver=RP2040&board=PicoBOB_G540
+
+## Flashing Firmware to your PicoBOB
+
+To upgrade or install firmware onto your PicoBOB, simply hold the BOOT button while pulsing the RUN buttton.  This will put the RP2040 into UF2 programming mode and it will appear on the USB port as a flash drive (RPI-RP2).  Simply drag the firmware UF2 file onto the drive and it will flash automatically.  If your PicoBOB is unprogrammed, it will appear as a flash drive without having to press the BOOT button.
