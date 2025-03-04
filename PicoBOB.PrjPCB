@@ -169,40 +169,6 @@ GenerateClassCluster=0
 DocumentUniqueId=GXJKOQLP
 
 [Document8]
-DocumentPath=..\cnc_projects\limit_switch_board_g2core\Layout\Universal_breakout.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
-DocumentPath=..\cnc_projects\limit_switch_board_g2core\Universal_CNC_Breakout.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VUFMGTSV
-
-[Document10]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Zener.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FGGVQLSB
 
-[Document11]
+[Document9]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Transistor_PNP.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRTBQHMJ
 
-[Document12]
+[Document10]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Transistor_NPN.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SNXALUAE
 
-[Document13]
+[Document11]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\RES.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HLBESONQ
 
-[Document14]
+[Document12]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\MOS.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RNJWUMFL
 
-[Document15]
+[Document13]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Miscellaneous Devices LC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document14]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\MCU.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JSSXFVPY
 
-[Document17]
+[Document15]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\LED.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SQBERQTN
 
-[Document18]
+[Document16]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\LDO.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -355,7 +321,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CCDDGAMC
 
-[Document19]
+[Document17]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\IUD.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -372,7 +338,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VMPXMJDM
 
-[Document20]
+[Document18]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\IC_temp.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -389,7 +355,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GQNPVBEG
 
-[Document21]
+[Document19]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\IC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +372,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VITYGUXC
 
-[Document22]
+[Document20]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\FBEAD.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +389,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GBUUCOMP
 
-[Document23]
+[Document21]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Diode.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -440,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JHFWXUNK
 
-[Document24]
+[Document22]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\CrystalOscillator.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -457,7 +423,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FITEGSRK
 
-[Document25]
+[Document23]
 DocumentPath=..\cnc_projects\Altium_JLC_Library\Cap.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -473,6 +439,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VTPOGMYO
+
+[Document24]
+DocumentPath=..\cnc_projects\Altium_JLC_Library\Universal_breakout.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=2FD7A5CA-1890-45CB-96AB-94166B7423FD
@@ -534,20 +517,20 @@ Path=..\libraries\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=PCBPARTNO
-Value=PicoBOB
+Name=VarRevNo
+Value=B2
 
 [Parameter2]
-Name=PCBREVNO
-Value=B1
-
-[Parameter3]
 Name=Title
 Value=PicoBOB
 
+[Parameter3]
+Name=PCBREVNO
+Value=B2
+
 [Parameter4]
-Name=VarRevNo
-Value=B1
+Name=PCBPARTNO
+Value=PicoBOB
 
 [Configuration1]
 Name=Default Configuration
@@ -1406,6 +1389,36 @@ OutputName12=Ansys EDB
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
